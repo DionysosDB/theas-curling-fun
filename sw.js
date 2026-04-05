@@ -1,7 +1,7 @@
 const CACHE = 'theas-curling-v1';
 const FILES = [
-  'https://dionysosdb.github.io/theas-curling-fun/index.html',
-  'https://dionysosdb.github.io/theas-curling-fun/manifest.json'
+  'https://DionysosDB.github.io/theas-curling-fun/index.html',
+  'https://DionysosDB.github.io/theas-curling-fun/manifest.json'
 ];
 
 self.addEventListener('install', e => {
@@ -36,7 +36,7 @@ self.addEventListener('fetch', e => {
           caches.open(CACHE).then(c => c.put(e.request, response.clone()));
         return response;
       }).catch(() =>
-        caches.match('https://dionysosdb.github.io/theas-curling-fun/index.html')
+        caches.match('https://DionysosDB.github.io/theas-curling-fun/index.html')
       );
     })
   );
