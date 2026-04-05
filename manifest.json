@@ -1,0 +1,25 @@
+{
+  "name": "Thea's Curling Fun",
+  "short_name": "Curling",
+  "description": "A full curling game — play vs CPU or 2 players!",
+  "start_url": "https://dionysosdb.github.io/theas-curling-fun/index.html",
+  "scope": "https://dionysosdb.github.io/theas-curling-fun/",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#0b1a2e",
+  "theme_color": "#0b1a2e",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥌</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥌</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
